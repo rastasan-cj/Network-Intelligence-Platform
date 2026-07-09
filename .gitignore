@@ -3,10 +3,18 @@ dist/
 .env
 .env.local
 .env.*.local
+.env.production
 *.log
 .DS_Store
 
 # PHP Backend
 backend/vendor/
 backend/.env
+backend/.env.production
 backend/storage/logs/*.log
+
+# Keep example templates (safe to commit)
+!.env.example
+!.env.production.example
+!backend/.env.example
+!backend/.env.production.example

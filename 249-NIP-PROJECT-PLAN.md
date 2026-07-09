@@ -50,8 +50,8 @@ v1.0  → Full Release (10 مراحل مكتملة)
 - [x] إنشاء مستودع Git وهيكل المشروع
 - [x] إعداد مشروع React + Vite + Tailwind CSS
 - [x] إعداد PHP 8.3 على Apache
-- [ ] إنشاء قاعدة بيانات MySQL وجداولها الأساسية
-- [ ] إعداد `.env` لكلا البيئتين (Development / Production)
+- [x] إنشاء قاعدة بيانات MySQL وجداولها الأساسية
+- [x] إعداد `.env` لكلا البيئتين (Development / Production)
 - [x] إعداد CORS وسياسات الأمان في Apache
 - [x] إنشاء نظام Routing الأساسي في الـ Frontend
 - [x] إعداد Axios Instance مع JWT Interceptors
