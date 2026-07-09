@@ -1,0 +1,6 @@
+{
+  "version": "0.1.0",
+  "build": "2026-07-09",
+  "platform": "249-NIP",
+  "changelog": "Initial release — Core Platform (Auth + DB schema + RBAC)"
+}
