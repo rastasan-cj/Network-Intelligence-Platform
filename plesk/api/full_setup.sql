@@ -393,7 +393,7 @@ INSERT IGNORE INTO `users` (
   '00000000-0000-0000-0000-000000000001',
   'admin',
   'admin@249nip.local',
-  '$2y$12$IZ1.1fQIwblL.aMdgZO8JO0vxwcSe6N9vlNzHIHvr5lSaQHr0sYJq',
+  '$2y$12$PNdjzuSXwMsAdJPuSKORceAzMXuEg7XlloUgFEDYSHntDTThvuFdO',
   'Super Administrator',
   1, 1, 1
 );
