@@ -39,8 +39,8 @@ httpdocs/
 1. افتح **Plesk → Databases → Add Database**
 2. اسم القاعدة: `nip_db` (أو أي اسم)
 3. أنشئ مستخدم قاعدة بيانات وكلمة مرور
-4. استورد الـ Schema عبر phpMyAdmin:
-   - **Import → اختر `api/schema.sql`**
+4. استورد قاعدة البيانات عبر phpMyAdmin:
+   - **Import → اختر `api/full_setup.sql`** (ملف واحد يجمع الجداول + البيانات الأولية)
 
 ### 3. ضبط config.php
 

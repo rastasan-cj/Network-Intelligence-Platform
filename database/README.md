@@ -14,13 +14,16 @@ CREATE DATABASE nip_db
   COLLATE utf8mb4_unicode_ci;
 ```
 
-### 2. Run the schema
+### 2. Import (ملف واحد يجمع Schema + Seeds)
 ```bash
-mysql -u root -p nip_db < database/schema.sql
+mysql -u root -p nip_db < database/full_setup.sql
 ```
 
-### 3. Run the seed data
+أو عبر phpMyAdmin: **Import → اختر `full_setup.sql`**
+
+#### بديل: استيراد منفصل (بالترتيب)
 ```bash
+mysql -u root -p nip_db < database/schema.sql
 mysql -u root -p nip_db < database/seeds.sql
 ```
 
