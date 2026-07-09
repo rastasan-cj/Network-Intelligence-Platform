@@ -49,7 +49,7 @@ v1.0  → Full Release (10 مراحل مكتملة)
 
 - [x] إنشاء مستودع Git وهيكل المشروع
 - [x] إعداد مشروع React + Vite + Tailwind CSS
-- [ ] إعداد PHP 8.3 على Apache
+- [x] إعداد PHP 8.3 على Apache
 - [ ] إنشاء قاعدة بيانات MySQL وجداولها الأساسية
 - [ ] إعداد `.env` لكلا البيئتين (Development / Production)
 - [ ] إعداد CORS وسياسات الأمان في Apache

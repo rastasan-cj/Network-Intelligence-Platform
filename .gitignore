@@ -5,3 +5,8 @@ dist/
 .env.*.local
 *.log
 .DS_Store
+
+# PHP Backend
+backend/vendor/
+backend/.env
+backend/storage/logs/*.log
