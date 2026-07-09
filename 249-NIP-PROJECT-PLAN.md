@@ -52,7 +52,7 @@ v1.0  → Full Release (10 مراحل مكتملة)
 - [x] إعداد PHP 8.3 على Apache
 - [ ] إنشاء قاعدة بيانات MySQL وجداولها الأساسية
 - [ ] إعداد `.env` لكلا البيئتين (Development / Production)
-- [ ] إعداد CORS وسياسات الأمان في Apache
+- [x] إعداد CORS وسياسات الأمان في Apache
 - [x] إنشاء نظام Routing الأساسي في الـ Frontend
 - [x] إعداد Axios Instance مع JWT Interceptors
 - [x] إعداد TanStack Query Provider
