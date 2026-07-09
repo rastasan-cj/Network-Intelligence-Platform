@@ -161,6 +161,23 @@ CREATE TABLE IF NOT EXISTS `user_roles` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- ============================================================
+-- TABLE: sessions  (server-side session tracking — required by auth plan §1.2)
+-- ============================================================
+CREATE TABLE IF NOT EXISTS `sessions` (
+  `id`          CHAR(64)      NOT NULL,
+  `user_id`     INT UNSIGNED  NOT NULL,
+  `ip_address`  VARCHAR(45)   DEFAULT NULL,
+  `user_agent`  VARCHAR(500)  DEFAULT NULL,
+  `payload`     JSON          DEFAULT NULL,
+  `last_activity` DATETIME    NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `created_at`  DATETIME      NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`),
+  KEY `idx_sessions_user`          (`user_id`),
+  KEY `idx_sessions_last_activity` (`last_activity`),
+  CONSTRAINT `fk_sessions_user` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- ============================================================
 -- TABLE: refresh_tokens
 -- ============================================================
 CREATE TABLE IF NOT EXISTS `refresh_tokens` (

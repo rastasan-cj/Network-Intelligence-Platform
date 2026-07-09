@@ -46,6 +46,7 @@ mysql -u root -p nip_db < database/seeds.sql
 | `role_permissions`     | ربط الصلاحيات بالأدوار              |
 | `users`                | المستخدمون (مع Soft Delete)          |
 | `user_roles`           | ربط المستخدمين بالأدوار             |
+| `sessions`             | جلسات المستخدمين (server-side)       |
 | `refresh_tokens`       | JWT Refresh Tokens                   |
 | `password_reset_tokens`| رموز إعادة تعيين كلمة المرور        |
 | `login_attempts`       | حماية Brute Force                    |
