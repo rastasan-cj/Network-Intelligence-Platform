@@ -47,16 +47,16 @@ v1.0  → Full Release (10 مراحل مكتملة)
 
 ## 1.1 — إعداد بيئة التطوير
 
-- [ ] إنشاء مستودع Git وهيكل المشروع
-- [ ] إعداد مشروع React + Vite + Tailwind CSS
+- [x] إنشاء مستودع Git وهيكل المشروع
+- [x] إعداد مشروع React + Vite + Tailwind CSS
 - [ ] إعداد PHP 8.3 على Apache
 - [ ] إنشاء قاعدة بيانات MySQL وجداولها الأساسية
 - [ ] إعداد `.env` لكلا البيئتين (Development / Production)
 - [ ] إعداد CORS وسياسات الأمان في Apache
-- [ ] إنشاء نظام Routing الأساسي في الـ Frontend
-- [ ] إعداد Axios Instance مع JWT Interceptors
-- [ ] إعداد TanStack Query Provider
-- [ ] إعداد Zustand Store الأساسي
+- [x] إنشاء نظام Routing الأساسي في الـ Frontend
+- [x] إعداد Axios Instance مع JWT Interceptors
+- [x] إعداد TanStack Query Provider
+- [x] إعداد Zustand Store الأساسي
 
 ---
 
